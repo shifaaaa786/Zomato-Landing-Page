@@ -181,3 +181,22 @@ header {
     box-shadow: 0 2px 4px rgb(236, 236, 236);
     padding: 20px;
 }
+
+.item-head{
+    font-size: 1.2rem;
+    color: rgb(28, 28, 28);
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.item-subhead{
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    margin: 0;
+
+}
+
+#more{
+    display: flex;
+    justify-content: center;
+}
