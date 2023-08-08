@@ -36,13 +36,17 @@ header {
     color: white;
     font-size: 1 rem;
     margin: 0 40px;
+    padding:.8em ;
 }
 
 .nav-bar {
     list-style: none;
     font-weight: lighter;
     display: flex;
-    gap: 1.5rem;
+    gap: 1.7rem;
+    letter-spacing: 1px;
+    margin-right: 10%;
+    font-size: 18px;
 }
 
 .head {
@@ -54,7 +58,7 @@ header {
 }
 
 .logo {
-    width: 25vw;
+    width: 20vw;
 }
 
 .search {
@@ -63,7 +67,7 @@ header {
     align-items: center;
     border-radius: 8px;
     background-color: white;
-    padding: 5px 4px;
+    padding: 20px 4px;
     /* top-bottom left-right*/
 }
 
@@ -73,7 +77,10 @@ header {
     margin-left: 10px;
 }
 
-.search p {
+.add {
+    outline: none;
+    border: none;
+    width: 300px;
     color: grey;
     border-right: 1px solid grey;
     font-size: 15px;
@@ -81,7 +88,7 @@ header {
     padding-left: 10px;
 }
 
-.search input {
+.dish {
     outline: none;
     border: none;
     width: 280px;
@@ -90,12 +97,12 @@ header {
 }
 
 .search .search-item:first-child {
-    width: 30%;
+    width: 35%;
     color: rgb(255, 126, 139);
 }
 
 .search .search-item:last-child {
-    width: 70%;
+    width: 65%;
     color: gray;
 }
 
